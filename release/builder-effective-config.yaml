@@ -1,0 +1,22 @@
+directories:
+  output: D:\soft\learn\electron-jue-jin\release
+  buildResources: build
+  app: D:\soft\learn\electron-jue-jin\dist
+files:
+  - filter:
+      - '**'
+extends: null
+productName: JueJin
+appId: com.juejin.desktop
+asar: true
+nsis:
+  oneClick: true
+  perMachine: true
+  allowToChangeInstallationDirectory: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: juejinDesktop
+publish:
+  - provider: generic
+    url: http://localhost:5500/
+electronVersion: 21.3.0
