@@ -34,6 +34,10 @@ class BuildObj {
           output: path.join(process.cwd(), "release"),
           app: path.join(process.cwd(), "dist"),
         },
+        linux: {
+          target: 'tar.gz'
+        },
+        win: {},
         files: ["**"],
         extends: null,
         productName: "JueJin",

@@ -1,7 +1,10 @@
 directories:
-  output: D:\soft\learn\electron-jue-jin\release
+  output: D:\demo\electron-jue-jin\release
   buildResources: build
-  app: D:\soft\learn\electron-jue-jin\dist
+  app: D:\demo\electron-jue-jin\dist
+linux:
+  target: tar.gz
+win: {}
 files:
   - filter:
       - '**'
